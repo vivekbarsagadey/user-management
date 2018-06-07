@@ -7,7 +7,6 @@ const users = [
   new User(4, 'Pallavi', 'Bar',33,'pallavi@gsit.co.in','pallavi'),
   new User(5, 'Akash', 'Bar',33,'akash@gsit.co.in','akash'),
 ];
-
 const usersPromise = Promise.resolve(users);
 @Injectable({
   providedIn: 'root'
