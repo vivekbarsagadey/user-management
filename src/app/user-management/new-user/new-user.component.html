@@ -24,7 +24,9 @@
       <div class="form-group row has-danger">
         <label for="ageInput" class="col-4 col-form-label">Age</label>
         <div class="col-8">
-          <input type="number" class="form-control form-control-danger" id="ageInput" placeholder="Enter Age" required [(ngModel)]="user.age" name="age"  #age="ngModel">
+          <input type="number" class="form-control form-control-danger" id="ageInput" placeholder="Enter Age" required
+                 pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" [(ngModel)]="user.age" name="age"
+                 #age="ngModel">
           <div [hidden]="age.valid || age.pristine" class="form-control-feedback">Please enter correct age</div>
         </div>
       </div>
