@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
 import {User} from './user';
 const users = [
-  new User(1, 'Vivek', 'Bar', 35, 'vivek@gsit.co.in','vivek'),
-  new User(2, 'Shan', 'Bar',33,'shan@gsit.co.in','shan'),
-  new User(3, 'Pintu', 'Bar',33,'pintu@gsit.co.in','pintu'),
-  new User(4, 'Pallavi', 'Bar',33,'pallavi@gsit.co.in','pallavi'),
-  new User(5, 'Akash', 'Bar',33,'akash@gsit.co.in','akash'),
+  new User(1, 'Vivek', 'Bar', 35, 'vivek@gsit.co.in', 'vivek'),
+  new User(2, 'Shan', 'Bar', 33, 'shan@gsit.co.in', 'shan'),
+  new User(3, 'Pintu', 'Bar', 33, 'pintu@gsit.co.in', 'pintu'),
+  new User(4, 'Pallavi', 'Bar', 33, 'pallavi@gsit.co.in', 'pallavi'),
+  new User(5, 'Akash', 'Bar', 33, 'akash@gsit.co.in', 'akash'),
 ];
 const usersPromise = Promise.resolve(users);
 @Injectable({
