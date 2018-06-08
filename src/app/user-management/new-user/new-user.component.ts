@@ -4,6 +4,7 @@ import {Observable} from 'rxjs';
 import {UserService} from '../user.service';
 import {User} from '../user';
 import {ActivatedRoute, Router, Params} from '@angular/router';
+import {FormsModule} from '@angular/forms';
 
 @Component({
   selector: 'app-new-user',
