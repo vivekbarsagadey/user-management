@@ -7,7 +7,7 @@ import {ActivatedRoute, Router, Params} from '@angular/router';
 @Component({
   selector: 'app-user-detail',
   templateUrl: './user-detail.component.html',
-  styleUrls: ['./user-detail.component.css']
+  styleUrls: ['./user-detail.component.scss']
 })
 export class UserDetailComponent implements OnInit {
   constructor(private userService: UserService, private route: ActivatedRoute,
