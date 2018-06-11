@@ -19,6 +19,10 @@
           <context context-type="sourcefile">app/header/header.component.ts</context>
           <context context-type="linenumber">9</context>
         </context-group>
+        <context-group purpose="location">
+                  <context context-type="sourcefile">app/home/home.component.ts</context>
+                  <context context-type="linenumber">3</context>
+                </context-group>
       </trans-unit>
       <trans-unit id="9b475bb63675494482effde989c7f1f18c232620" datatype="html">
         <source>Contacts</source>
@@ -37,8 +41,12 @@
       <trans-unit id="847171f94c5e932a67df0c3b4d57e4e10d844b52" datatype="html">
         <source>About Us</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/header/header.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="sourcefile">app/about/about.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+           <context context-type="sourcefile">app/header/header.component.ts</context>
+           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7e892ba15f2c6c17e83510e273b3e10fc32ea016" datatype="html">
