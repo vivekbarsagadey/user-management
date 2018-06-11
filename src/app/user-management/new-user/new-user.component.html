@@ -8,21 +8,21 @@
     <p class="card-text">This is new user from.</p>
     <form #userForm="ngForm">
       <div class="form-group row has-danger">
-        <label for="firstNameInput" class="col-4 col-form-label">First Name</label>
+        <label for="firstNameInput" class="col-4 col-form-label" i18n>First Name</label>
         <div class="col-8">
           <input type="text" class="form-control form-control-danger" id="firstNameInput" placeholder="Enter First Name" required [(ngModel)]="user.firstName" name="firstName" #firstName="ngModel">
           <div [hidden]="firstName.valid || firstName.pristine" class="form-control-feedback">Please enter correct first name</div>
         </div>
       </div>
       <div class="form-group row has-danger">
-        <label for="lastNameInput" class="col-4 col-form-label">Last Name</label>
+        <label for="lastNameInput" class="col-4 col-form-label" i18n>Last Name</label>
         <div class="col-8">
           <input type="text" class="form-control form-control-danger" id="lastNameInput" placeholder="Enter Last Name" required [(ngModel)]="user.lastName" name="lastName"  #lastName="ngModel">
           <div [hidden]="lastName.valid || lastName.pristine" class="form-control-feedback">Please enter correct last name</div>
         </div>
       </div>
       <div class="form-group row has-danger">
-        <label for="ageInput" class="col-4 col-form-label">Age</label>
+        <label for="ageInput" class="col-4 col-form-label" i18n>Age</label>
         <div class="col-8">
           <input type="number" class="form-control form-control-danger" id="ageInput" placeholder="Enter Age" required
                  [(ngModel)]="user.age" name="age"
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="form-group row has-danger">
-        <label for="exampleInputEmail1" class="col-4 col-form-label">Email address</label>
+        <label for="exampleInputEmail1" class="col-4 col-form-label" i18n>Email address</label>
         <div class="col-8">
           <input type="email" class="form-control form-control-danger" id="exampleInputEmail1" aria-describedby="emailHelp"
                  placeholder="Enter email" required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
@@ -42,7 +42,7 @@
 
       </div>
       <div class="form-group row has-danger">
-        <label for="exampleInputPassword" class="col-4 col-form-label">Password</label>
+        <label for="exampleInputPassword" class="col-4 col-form-label" i18n>Password</label>
         <div class="col-8">
           <input type="password" class="form-control form-control-danger" id="exampleInputPassword" placeholder="Password" required [(ngModel)]="user.password" name="password" #password="ngModel">
           <div [hidden]="password.valid || password.pristine" class="form-control-feedback">Please enter correct password</div>
@@ -50,8 +50,8 @@
         </div>
 
       </div>
-      <button type="button"  id="submitButton" class="btn btn-primary" [disabled]="!userForm.form.valid" (click)="onSubmit()">Submit</button>
-      <button type="reset" class="btn btn-primary">Cancel</button>
+      <button type="button"  id="submitButton" class="btn btn-primary" [disabled]="!userForm.form.valid" (click)="onSubmit()" i18n>Submit</button>
+      <button type="reset" class="btn btn-primary" i18n>Clear</button>
     </form>
   </div>
 </div>

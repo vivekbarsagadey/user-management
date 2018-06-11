@@ -58,6 +58,62 @@
                     <context context-type="linenumber">23</context>
                   </context-group>
                 </trans-unit>
+                <trans-unit id="c83b838d845690bcb897f775f53b5316535306dc" datatype="html">
+                        <source>First Name</source>
+                        <target>Prénom</target>
+                        <context-group purpose="location">
+                          <context context-type="sourcefile">app/user-management/new-user/new-user.component.ts</context>
+                          <context context-type="linenumber">11</context>
+                        </context-group>
+                      </trans-unit>
+                      <trans-unit id="166b2cc65003221ff5f3ec05d5baca41e6821396" datatype="html">
+                        <source>Last Name</source>
+                        <target>Nom de famille</target>
+                        <context-group purpose="location">
+                          <context context-type="sourcefile">app/user-management/new-user/new-user.component.ts</context>
+                          <context context-type="linenumber">18</context>
+                        </context-group>
+                      </trans-unit>
+                      <trans-unit id="2e6be334a2152f179a557167f98ce4459ff9a2f9" datatype="html">
+                        <source>Age</source>
+                        <target>Age</target>
+                        <context-group purpose="location">
+                          <context context-type="sourcefile">app/user-management/new-user/new-user.component.ts</context>
+                          <context context-type="linenumber">25</context>
+                        </context-group>
+                      </trans-unit>
+                      <trans-unit id="69b6ac577a19acc39fc0c22342092f327fff2529" datatype="html">
+                        <source>Email address</source>
+                        <target>Adresse e-mail</target>
+                        <context-group purpose="location">
+                          <context context-type="sourcefile">app/user-management/new-user/new-user.component.ts</context>
+                          <context context-type="linenumber">34</context>
+                        </context-group>
+                      </trans-unit>
+                      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
+                        <source>Password</source>
+                        <target>Mot de passe</target>
+                        <context-group purpose="location">
+                          <context context-type="sourcefile">app/user-management/new-user/new-user.component.ts</context>
+                          <context context-type="linenumber">45</context>
+                        </context-group>
+                      </trans-unit>
+                      <trans-unit id="71c77bb8cecdf11ec3eead24dd1ba506573fa9cd" datatype="html">
+                        <source>Submit</source>
+                        <target>Soumettre</target>
+                        <context-group purpose="location">
+                          <context context-type="sourcefile">app/user-management/new-user/new-user.component.ts</context>
+                          <context context-type="linenumber">53</context>
+                        </context-group>
+                      </trans-unit>
+                      <trans-unit id="99ee4faa69cd2ea8e3678c1f557c0ff1f05aae46" datatype="html">
+                        <source>Clear</source>
+                        <target>Clair</target>
+                        <context-group purpose="location">
+                          <context context-type="sourcefile">app/user-management/new-user/new-user.component.ts</context>
+                          <context context-type="linenumber">54</context>
+                        </context-group>
+                      </trans-unit>
     </body>
   </file>
 </xliff>
