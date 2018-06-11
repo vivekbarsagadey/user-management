@@ -13,6 +13,6 @@
   </div>
   <br>
   <button type="submit" class="btn btn-default" [disabled]="!contactForm.form.valid">Save</button>
-  <button type="button" class="btn" (click)="next()" [disabled]="!contactForm.form.valid">Next Contact</button>
+  <button type="button" class="btn" id="next" (click)="next()" [disabled]="!contactForm.form.valid">Next Contact</button>
   <button type="button" class="btn" (click)="newContact()">New Contact</button>
 </form>

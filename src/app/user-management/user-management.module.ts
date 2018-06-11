@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule, LOCALE_ID} from '@angular/core';
+import { CommonModule} from '@angular/common';
 import {FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {UserManagementComponent} from './user-management.component';
 import {UserManagementRoutingModule} from './user-management-routing.module';
@@ -12,6 +12,6 @@ import { UserListComponent } from './user-list/user-list.component';
   imports:      [ CommonModule, FormsModule , UserManagementRoutingModule, ReactiveFormsModule  ],
   declarations: [ UserManagementComponent , UserListComponent, UserDetailComponent , NewUserComponent ],
   exports:      [ UserManagementComponent ],
-  providers:    [ UserService ]
+  providers:    [ UserService , { provide: LOCALE_ID, useValue: 'fr' }]
 })
 export class UserManagementModule { }
