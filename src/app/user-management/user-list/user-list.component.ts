@@ -17,11 +17,18 @@ export class UserListComponent implements OnInit {
   deletedUser: User;
   constructor(private userService: UserService, private route: ActivatedRoute,
               private router: Router) {
+    // this.route.params.subscribe(params => {
+    //   console.log(params);
+    //   if (params['searchData']) {
+    //     this.doSearch(params['searchData']);
+    //   }
+    // });
   }
 
   ngOnInit() {
     this.loadUser();
   }
+
 
   private loadUser() {
     this.users = this.route.params.pipe(
@@ -29,7 +36,9 @@ export class UserListComponent implements OnInit {
         return this.userService.getUsers();
       }));
   }
-
+  // doSearch(data) {
+  //   return data;
+  // }
   onSelect(user: User) {
     this.router.navigate(['/user', user.id]);
   }

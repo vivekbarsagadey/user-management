@@ -1,11 +1,14 @@
-<ol class="breadcrumb">
-  <li class="breadcrumb-item active">New User</li>
-</ol>
+<!--<ol class="breadcrumb">-->
+  <!--<li class="breadcrumb-item active">New User</li>-->
+<!--</ol>-->
 <div class="card">
   <div class="card-block">
-    <h4 class="card-title">New User</h4>
-    <h6 class="card-subtitle mb-2 text-muted">add new user</h6>
-    <p class="card-text">This is new user from.</p>
+    <div class="header-text">
+    <h3 class="text-primary card-title">Apply to Join us</h3>
+    <!--<h6 class="card-subtitle mb-2 text-muted ">New User Register</h6>-->
+    <p class="card-text">This is new user management application, you'll gain access to a network of top talent,
+      great companies, and resources you can leverage throughout your career. </p>
+    </div>
     <form #userForm="ngForm">
       <div class="form-group row has-danger">
         <label for="firstNameInput" class="col-4 col-form-label" i18n>First Name</label>
@@ -50,8 +53,17 @@
         </div>
 
       </div>
-      <button type="button"  id="submitButton" class="btn btn-primary" [disabled]="!userForm.form.valid" (click)="onSubmit()" i18n>Submit</button>
-      <button type="reset" class="btn btn-primary" i18n>Clear</button>
+      <div class="col-md-12 row">
+      <div class="col-md-4"> </div>
+      <div class="btn-toolbar space-between col-md-8">
+        <div class="col-md-6">
+      <button type="button"  id="submitButton" class="btn btn-success width-large" [disabled]="!userForm.form.valid" (click)="onSubmit()" i18n>Submit</button>
+        </div>
+        <div class="col-md-6">
+      <button type="reset" class="btn btn-success width-large" i18n>Clear</button>
+        </div>
+      </div>
+      </div>
     </form>
   </div>
 </div>

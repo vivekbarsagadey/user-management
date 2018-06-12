@@ -8,19 +8,19 @@ This project was generated with [Angular CLI](https://github.com/vivekbarsagadey
 
 ### Home screen
 
-![User management Home Screen](https://res.cloudinary.com/vivek-bnb/image/upload/v1528723262/user-management/home-screen.png)
+![User management Home Screen](https://res.cloudinary.com/vivek-bnb/image/upload/v1528803800/user-management/home-screen.png)
 
 ### Contact Screen
 
-![User management Contact Screen](https://res.cloudinary.com/vivek-bnb/image/upload/v1528723260/user-management/contact-screen.png)
+![User management Contact Screen](https://res.cloudinary.com/vivek-bnb/image/upload/v1528803808/user-management/contact-screen.png)
 
 ### Users Screen
 
-![User management Users Screen](https://res.cloudinary.com/vivek-bnb/image/upload/v1528723262/user-management/user-screen.png)
+![User management Users Screen](https://res.cloudinary.com/vivek-bnb/image/upload/v1528803799/user-management/user-screen.png)
 
 ### Create new user
 
-![User management Create new user](https://res.cloudinary.com/vivek-bnb/image/upload/v1528723262/user-management/add-user.png)
+![User management Create new user](https://res.cloudinary.com/vivek-bnb/image/upload/v1528803805/user-management/Add-user.png)
 
 
 # Usage
@@ -58,6 +58,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 1. Angular 6
 2. i18n
 3. bootstrap
+4. scss
 
 ## Bugs and Feedback
 
