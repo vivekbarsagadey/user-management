@@ -11,6 +11,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { HomeComponent } from './home/home.component';
 import {UserManagementModule} from './user-management/user-management.module';
 import {ContactModule} from './contact/contact.module';
+import { MenuComponent } from './menu/menu.component';
 
 const appRoutes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -32,6 +33,7 @@ const appRoutes: Routes = [
     AboutComponent,
     PageNotFoundComponent,
     HomeComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
